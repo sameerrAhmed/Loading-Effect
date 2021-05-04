@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loder for you</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .loder{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 10px solid;
+        border-color: #00ff87 #00422357;
+        animation: 1.5s spin infinite;
+          
+    }
+    .bac{
+        height: 50%;
+        width: 50%;
+        background-color: black;
+        
+    }
+    p{
+        color: white;
+        font-size: 3rem;
+        
+    }
+
+    @keyframes spin{
+        to{
+            transform: rotate(360deg);
+        }
+    }
+
+</style>
+<body>
+    <div class="bac">
+        <p>Loading Effect</p>
+    <center><div class="loder"></div></center>
+    </div>
+</body>
+</html>
